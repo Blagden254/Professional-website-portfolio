@@ -3,51 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milycent Kadoshi | Portfolio</title>
+    <title>Milycent Kadoshi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <nav>
+            <h1>Milycent Kadoshi</h1>
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><button id="darkModeToggle">🌙</button></li>
             </ul>
         </nav>
     </header>
-    
+
     <section id="home">
-        <h1>Milycent Kadoshi</h1>
-        <p>Software Engineer & Data Analyst</p>
-        <a href="#contact" class="cta">Hire Me</a>
+        <div class="intro">
+            <h2>Software Engineer & Data Analyst</h2>
+            <p>Experienced in financial analysis, actuarial valuation, and data analytics.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="BLAGDEN_SITATI_LIVEHA-RESUME.pdf" class="btn" download>Download Resume</a>
+        </div>
     </section>
-    
+
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm a software engineer with expertise in Python, JavaScript, SQL, and data analysis...</p>
+        <p>Proficient in financial analysis, actuarial valuation, and statistical methods. Skilled in R, SPSS, and Microsoft Office tools.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Financial Analysis & Reporting</li>
+            <li>Actuarial Valuation</li>
+            <li>Microsoft Office & Typing (45 WPM)</li>
+            <li>Data Collection & Analysis</li>
+            <li>Statistical Analysis</li>
+            <li>Accounting</li>
+            <li>Communication & Collaboration</li>
+            <li>R Programming & SPSS</li>
+        </ul>
     </section>
-    
+
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project Name</h3>
-            <p>Short description of the project.</p>
+            <h3>Football Prediction Website</h3>
+            <p>Developed a football game prediction site using machine learning models.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>AI-Powered Consent Management System</h3>
+            <p>Designed a system to analyze and highlight hidden data-sharing clauses in agreements.</p>
             <a href="#">View Project</a>
         </div>
     </section>
-    
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my full resume here:</p>
+        <a href="BLAGDEN_SITATI_LIVEHA-RESUME.pdf" class="btn" download>Download Resume</a>
+    </section>
+
     <section id="contact">
         <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
+        <p>Email: <a href="mailto:sitabilagden@gmail.com">sitabilagden@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/milycent">Milycent Kadoshi</a></p>
+        <p>GitHub: <a href="https://github.com/milycent">github.com/milycent</a></p>
     </section>
-    
-    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2025 Milycent Kadoshi. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
